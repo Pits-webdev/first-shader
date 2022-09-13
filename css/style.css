@@ -1,0 +1,16 @@
+@import url('./global.css');
+
+.webgl {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* outline: none; */
+  display: block;
+  z-index: -1;
+}
+
+h1 {
+  text-align: center;
+}

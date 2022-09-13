@@ -1,0 +1,51 @@
+:root {
+  /* Color */
+  --color_dark: #2e2e2e;
+  --color_light: #e6dece;
+  --color: rgb(206, 25, 25);
+
+  --container_width_lg: 90%;
+  --container_width_md: 95%;
+
+  --transition: all 0.3s ease;
+}
+
+@font-face {
+  font-family: Glups;
+  src: url('./../assets/fonts/OTF®\ Glusp.ttf') format('truetype');
+}
+@font-face {
+  font-family: Syncopate-Bold;
+  src: url('./../assets/fonts/Syncopate-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Michroma;
+  src: url('./../assets/fonts/Michroma-Regular.ttf') format('truetype');
+}
+
+/*
+@font-face {
+  font-family: var(--roboto);
+  src: url('./../assets/fonts/Roboto-Bold.ttf');
+  font-weight: 700;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 1.6rem;
+  position: relative;
+  background: var(--color_dark);
+  color: var(--color_light);
+}
